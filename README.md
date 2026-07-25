@@ -19,6 +19,14 @@ Copy the rules text into your project's `CLAUDE.md`, or paste it into the prompt
 
 In `CLAUDE.md` or in the prompt, the rules load at the start of the session and fire on any phrasing ("review this", "does this look OK?").
 
+## Why not to add more rules
+
+Almost everything you will want to add after the fact is a disclosure rule. "State your confidence", "List the gaps", "Describe your coverage", "Name your assumptions". They look responsible, they are pleasant to write, and they are almost always true. The strength of this file lies in the opposite move:
+
+> When you hit uncertainty — go and resolve it, don't describe it.
+
+Disclosure and description rules are cheap to satisfy and indistinguishable in appearance from rigor. So they don't merely dilute — they shift the document's center of gravity from doing the work to narrating the work. Add enough of them and you get a review that reports flawlessly on everything it did not check.
+
 </details>
 
 ---
@@ -34,5 +42,13 @@ In `CLAUDE.md` or in the prompt, the rules load at the start of the session and 
 - `code-review-rules.en.md` — английский
 
 В `CLAUDE.md` или промпте правила грузятся в начале сессии и срабатывают на любую формулировку («сделай ревью», «глянь, норм?»).
+
+## Почему не стоит дописывать правила
+
+Практически всё, что хочется добавить постфактум, — правила раскрытия. «Обозначь уверенность», «Перечисли пробелы», «Опиши покрытие», «Назови допущения». Они выглядят ответственно, их приятно писать, и они почти всегда истинны. Сила этого файла ровно в обратном ходе:
+
+> При столкновении с неопределённостью — иди и разреши её, а не описывай.
+
+Правила раскрытия/описывания дёшевы в исполнении и неотличимы по виду от строгости. Поэтому они не просто разбавляют — они смещают центр тяжести документа с работы на повествование о работе. Дописав их достаточно, ты получишь ревью, которое безупречно отчитывается о том, чего не проверило.
 
 </details>
