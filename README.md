@@ -1,6 +1,9 @@
 # Fable 5's Code Review Rules
 
 > 29 of 34 rules supplement Opus 5's default review; the remaining 5 it applies anyway.
+>
+> By Opus 5's own estimate — a judgement from reading the ruleset, not a measurement.
+> По собственной оценке Opus 5 — суждение по прочтении набора, а не замер.
 
 A compact ruleset that makes an LLM code review falsifiable instead of agreeable.
 Компактный набор правил, который делает LLM-ревью проверяемым, а не покладистым.
@@ -18,6 +21,8 @@ Copy the rules text into your project's `CLAUDE.md`, or paste it into the prompt
 - `code-review-rules.ru.md` — Russian
 
 In `CLAUDE.md` or in the prompt, the rules load at the start of the session and fire on any phrasing ("review this", "does this look OK?").
+
+Not an official Anthropic material — these are model answers collected in a chat session.
 
 ## Why not to add more rules
 
@@ -42,6 +47,8 @@ Disclosure and description rules are cheap to satisfy and indistinguishable in a
 - `code-review-rules.en.md` — английский
 
 В `CLAUDE.md` или промпте правила грузятся в начале сессии и срабатывают на любую формулировку («сделай ревью», «глянь, норм?»).
+
+Не является официальным материалом Anthropic — это ответы модели, полученные в диалоге.
 
 ## Почему не стоит дописывать правила
 
