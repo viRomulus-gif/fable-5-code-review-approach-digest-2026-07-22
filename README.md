@@ -15,13 +15,13 @@ A compact ruleset that makes an LLM code review falsifiable instead of agreeable
 
 ## How to use
 
-Copy the rules text into your project's `CLAUDE.md`, or paste it into the prompt before asking for a review. You can use individual rules on their own, or the whole text. I did not strip out the rules Opus already applies: this is a complete survey of how the Fable model does review, and removing anything would misrepresent it. The survey was taken before the Opus 5 release. It was right after that release that people started complaining about a drop in Fable's "intelligence" and "review relevance". Thank you.
+Copy the rules text into your project's `CLAUDE.md`, into a `SKILL.md`, or paste it into the prompt before asking for a review. You can use individual rules on their own, or the whole text. I did not strip out the rules Opus already applies: this is a complete survey of how the Fable model does review, and removing anything would misrepresent it. The survey was taken before the Opus 5 release. It was right after that release that people started complaining about a drop in Fable's "intelligence" and "review relevance". Thank you.
 
 - `code-review-rules.en.md` — English
 - `code-review-rules.ru.md` — Russian
 
 In `CLAUDE.md` or in the prompt, the rules load at the start of the session and fire on any phrasing ("review this", "does this look OK?").
-
+In `SKILL.md`, you invoke the skill on your own request (saves tokens).
 Not an official Anthropic material — these are model answers collected in a chat session.
 
 ## Why not to add more rules
