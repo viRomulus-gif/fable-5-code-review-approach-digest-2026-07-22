@@ -30,8 +30,6 @@ Almost everything you will want to add after the fact is a disclosure rule. "Sta
 
 > When you hit uncertainty — go and resolve it, don't describe it.
 
-Disclosure and description rules are cheap to satisfy and indistinguishable in appearance from rigor. So they don't merely dilute — they shift the document's center of gravity from doing the work to narrating the work. Add enough of them and you get a review that reports flawlessly on everything it did not check.
-
 </details>
 
 ---
@@ -55,7 +53,5 @@ Disclosure and description rules are cheap to satisfy and indistinguishable in a
 Практически всё, что хочется добавить постфактум, — правила раскрытия. «Обозначь уверенность», «Перечисли пробелы», «Опиши покрытие», «Назови допущения». Они выглядят ответственно, их приятно писать, и они почти всегда истинны. Сила этого файла ровно в обратном ходе:
 
 > При столкновении с неопределённостью — иди и разреши её, а не описывай.
-
-Правила раскрытия/описывания дёшевы в исполнении и неотличимы по виду от строгости. Поэтому они не просто разбавляют — они смещают центр тяжести документа с работы на повествование о работе. Дописав их достаточно, ты получишь ревью, которое безупречно отчитывается о том, чего не проверило.
 
 </details>
